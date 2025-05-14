@@ -434,8 +434,8 @@ def main():
         "n_layers": 4,  # 3也可以
         "num_heads": 8,
         "lr": 5e-4,  # 3e-4
-        "epochs": 100,  # 推荐500+
-        "seed": 42,  # 随机数种子
+        "epochs": 500,  # 推荐500+
+        "seed": 21,  # 随机数种子
         "save_dir": "models",  # 存到哪里
         "max_feature_value": 100,  # 限制特征最大值，防止极端值造成不稳定
         "num_workers": 0
